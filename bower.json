@@ -1,0 +1,19 @@
+{
+  "name": "FreeUKGenealogy-Project-Template",
+  "version": "1.0.0",
+  "authors": "Josh Angell <josh@supercooldesign.co.uk>",
+  "description": "Frontend resources for Free UK Genealogy the Project Template",
+  "license": "MIT",
+  "homepage": "http://supercooldesign.co.uk/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "FreeUKGenealogy-Core-Frontend": "git@github.com:supercool/FreeUKGen-Core-Frontend.git"
+  }
+}
