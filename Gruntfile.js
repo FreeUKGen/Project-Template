@@ -31,6 +31,15 @@ module.exports = function(grunt) {
       shiv: {
         src: 'bower_components/html5shiv/dist/html5shiv.min.js',
         dest: 'scripts/dist/html5shiv.js'
+      },
+
+      fonts: {
+        expand: true,
+        cwd: 'bower_components/FreeUKGenealogy-Core-Frontend/fonts/',
+        src: '**',
+        dest: 'fonts/',
+        flatten: true,
+        filter: 'isFile',
       }
 
     },
@@ -86,13 +95,14 @@ module.exports = function(grunt) {
         }],
         options: {
           pngfolder: '../../images/png',
+          // add more hover styles here following this pattern
+          customselectors: {
+            "reply--dark" : [".icon__reply:hover"],
+            "repost--dark" : [".icon__repost:hover"],
+            "star--dark" : [".icon__star:hover"]
+          },
           cssprefix: '.icon__',
-          template: 'bower_components/FreeUKGenealogy-Core-Frontend/grunticon.hbs',
-          // to use colours, add more options here and then modify your src
-          // filenames to follow this pattern: filename.colors-white-red.svg
-          colors: {
-            white: "#ffffff"
-          }
+          template: 'bower_components/FreeUKGenealogy-Core-Frontend/grunticon.hbs'
         }
       }
     },
