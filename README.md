@@ -1,6 +1,6 @@
 # Free UK Gen Project Template
 
-This is a starting point for any projects that want to make use of the Free UK Gen Core Frontend resources.
+This is a starting point for any projects that want to make use of the [Free UK Gen Core Frontend](https://github.com/FreeUKGen/Core-Frontend) resources.
 
 It uses Bower to get the core repo and some other bits, Grunt to compile it all plus any local resources and then Jekyll to serve all that with the example index.html file.
 
