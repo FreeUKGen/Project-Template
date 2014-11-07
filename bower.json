@@ -14,6 +14,6 @@
     "tests"
   ],
   "dependencies": {
-    "FreeUKGenealogy-Core-Frontend": "git@github.com:supercool/FreeUKGen-Core-Frontend.git"
+    "FreeUKGenealogy-Core-Frontend": "git@github.com:FreeUKGen/Core-Frontend.git"
   }
 }
